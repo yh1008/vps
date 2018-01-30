@@ -16,7 +16,8 @@ $ sudo pip install shadowsocks
 
 ### ss set up
 
-``` $ sudo vim /etc/ss-conf.json 
+``` 
+$ sudo vim /etc/ss-conf.json 
 ```
 copy-paste
 ```
