@@ -3,9 +3,22 @@ vps on google cloud with shadowshocks
 
 [resource](http://godjose.com/2017/06/14/new-article/)
 
-### auto restart ss
+### ss set up
 
-``` $ sudo vim /etc/rc.local ```
+``` $ sudo vim /etc/ss-conf.json 
+```
+copy-paste
+```
+{
+"server":"0.0.0.0",
+"server_port":8688,
+"local_address":"127.0.0.1",
+"locl_port":1080,
+"password":"yh2901",                      
+"timeout":600,
+"method":"aes-256-cfb"
+}
+```
 
 
 ### add shadowsocks 
