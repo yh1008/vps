@@ -3,6 +3,17 @@ vps on google cloud with shadowshocks
 
 [resource](http://godjose.com/2017/06/14/new-article/)
 
+### install ss
+
+```  
+$ sudo –i 
+$ apt update
+$ apt upgrade
+$ sudo apt-get update  
+$ sudo apt-get install python-pip  
+$ sudo pip install shadowsocks  
+```
+
 ### ss set up
 
 ``` $ sudo vim /etc/ss-conf.json 
@@ -19,6 +30,9 @@ copy-paste
 "method":"aes-256-cfb"
 }
 ```
+### start ss
+
+``` sudo ssserver -c /etc/ss-conf.json -d start ```
 
 
 ### add shadowsocks 
