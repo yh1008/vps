@@ -6,7 +6,7 @@ vps on google cloud with shadowshocks
 ### install ss
 
 ```  
-$ sudo –i 
+$ sudo -i 
 $ apt update
 $ apt upgrade
 $ sudo apt-get update  
