@@ -36,7 +36,7 @@ copy-paste
 ``` sudo ssserver -c /etc/ss-conf.json -d start ```
 
 
-### add shadowsocks 
+### auto-start shadowsocks after reboot
 
 ``` $ sudo vim /etc/init.d/shadowsocks  ```
 
@@ -85,14 +85,15 @@ make it executable
 $ sudo chmod +x /etc/init.d/shadowsocks
 ``` 
 
-make new file 
+
 ```
-$ sudo vim /etc/init/shadowsocks.conf
+$ sudo update-rc.d shadowsocks defaults 
 ```
 
-``` $ sudo update-rc.d shadowsocks defaults ```
-
-``` $ sudo service shadowsocks {start|reload|stop} ```
+usage
+``` 
+$ sudo service shadowsocks {start|reload|stop} 
+```
 
 
 
