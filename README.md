@@ -55,11 +55,11 @@ copy-paste
 ### END INIT INFO
 
 start(){
-        ssserver -c /etc/shadowsocks.json -d start
+        ssserver -c /etc/ss-conf.json -d start
 }
 
 stop(){
-        ssserver -c /etc/shadowsocks.json -d stop
+        ssserver -c /etc/ss-conf.json -d stop
 }
 
 case "$1" in
