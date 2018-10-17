@@ -26,7 +26,7 @@ copy-paste
 "server_port":8688,
 "local_address":"127.0.0.1",
 "locl_port":1080,
-"password":"yh2901",                      
+"password":"mightypasswordofyourown",                      
 "timeout":600,
 "method":"aes-256-cfb"
 }
